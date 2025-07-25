@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final pages = [
       const _HomeBody(),
-      // const CatalogScreen(),
+      const CatalogScreen(),
       // const CartScreen(),
     ];
 
