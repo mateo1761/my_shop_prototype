@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
         selectedIndex: _index,
         onDestinationSelected: (i) => setState(() => _index = i),
         destinations: const [
-          // NavigationDestination(icon: Icon(Icons.home),            label: 'Home'),
+          NavigationDestination(icon: Icon(Icons.home),            label: 'Home'),
           NavigationDestination(icon: Icon(Icons.storefront),      label: 'Catálogo'),
           NavigationDestination(icon: Icon(Icons.shopping_cart),   label: 'Carrito'),
         ],
@@ -56,7 +56,7 @@ class _HomeBody extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
-                '/assets/banner.jpg', // Imagen promocional
+                'assets/banner.jpg', // Imagen promocional
                 height: 120,
                 width: double.infinity,
                 fit: BoxFit.cover,
