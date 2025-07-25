@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final pages = [
       const _HomeBody(),
       const CatalogScreen(),
-      // const CartScreen(),
+      const CartScreen(),
     ];
 
     return Scaffold(
